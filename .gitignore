@@ -1,0 +1,10 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore .terraform directory
+.terraform
+
+# Ignore Terraform lock files
+.terraform.lock.hcl
+private-key/ADMIN_KEYPAIR.pem
